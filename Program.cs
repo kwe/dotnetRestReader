@@ -6,7 +6,6 @@ namespace ConsoleApplication
 {
     public class Program
     {
-        public string Response { get; set; }
         public static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
@@ -20,7 +19,9 @@ namespace ConsoleApplication
             Post post = new Post();
             
             var r = await c.GetStringAsync("http://localhost:8000/wp-json/wp/v2/posts");
-            
+
+
+            // just learning about Tasks right now.
             post.Title = "Set in Task";
             post.Content = "Hey now";
 
