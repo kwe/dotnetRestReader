@@ -2,3 +2,4 @@
 =============================================
 
 Wordpress configured with Wordpress Rest Api plugin.
+https://wordpress.org/plugins/rest-api/
