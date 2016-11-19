@@ -15,6 +15,7 @@ namespace ConsoleApplication
             var json = GetApi(client).Result;
             
             JArray p = JArray.Parse(json);
+            // stuck on how to process this damn thing!
 
         }
         static async Task<string> GetApi(HttpClient c)
